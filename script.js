@@ -30,7 +30,7 @@ fetch(jsonFilePath)
           <div class="flex flex-wrap justify-center">
             ${group.links.map(link => `
               <div class="link rounded-lg p-2 mr-2 mb-2">
-                <a href="${link.url} target="_blank"" class="text-red-500 font-semibold">${link.title}</a>
+                <a href="${link.url}" target="_blank" class="text-red-500 font-semibold">${link.title}</a>
               </div>
             `).join('')}
           </div>
